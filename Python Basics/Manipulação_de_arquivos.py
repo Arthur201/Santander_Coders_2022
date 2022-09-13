@@ -21,8 +21,8 @@ elif usuario == "2":
 import shutil
 arquivo_csv = 'Arquivo.csv'
 arquivoClone = 'Arquivo_Clone.csv'
-
 shutil.copyfile(arquivo_csv, arquivoClone)
+
 if usuario == "3":
     with open('Arquivo_Clone.csv', 'r') as arquivoClone:
         ler = arquivoClone.read()

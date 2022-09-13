@@ -14,3 +14,4 @@ cotacaoU = dados['rates']['BRL']
 print(f'R${vlr_reais} em dólar vale: US$ {(vlr_reais/cotacaoU):.2f}')
 
 
+
